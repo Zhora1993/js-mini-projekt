@@ -1,0 +1,6 @@
+[
+  {"h2":"Fussball","bild":"./img/fussballklein.png","paragraph":"Fußball zählt zu den beliebtesten Sportarten der Welt.Fußball bewegt so viele Menschen wie kaum eine andere Sportart. "},
+  {"h2":"Turnen","bild":"./img/turnenklein.png","paragraph":"Turnenist eine der beliebtesten Sportarten der Welt.Es kombiniert Ästhetik,kraft, Beweglichkeit, und Präzision."},
+  {"h2":"Tennis","bild":"./img/tennisklein.png","paragraph":"Mit immerhin noch 1 Milliarde Anhängern weltweit belegt das Tennis Platz vier."},
+  {"h2":"Handball","bild":"./img/handballklein.png","paragraph":"Handball ist vor allem in Europa beliebt,außerhalb Europas ist Handball weniger populär"}
+]

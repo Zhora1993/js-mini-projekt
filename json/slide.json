@@ -1,0 +1,10 @@
+{
+  "slide":[
+    {"title":"Fussball","counter":"1/4","bild":"./img/fussball.jpg"},
+    {"title":"Turnen","counter":"2/4","bild":"./img/turnen.jpg"},
+    {"title":"Tennis","counter":"3/4","bild":"./img/tennis.jpg"},
+    {"title":"HandBall","counter":"4/4","bild":"./img/handball.jpg"}
+
+  ]
+
+}

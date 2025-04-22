@@ -1,0 +1,8 @@
+{
+  "anzeige":[
+    {"name":"Infos über Fussball", "dataPath":"./json/anzeigefussball.json", "id":"erste","idpath":"0"},
+    {"name":"Infos über Turnen", "dataPath":"./json/anzeigeturnen.json", "id":"zweite","idpath":"1"},
+    {"name":"Infos über Tennis ", "dataPath":"./json/anzeigetennis.json", "id":"dritte","idpath":"2"},
+    {"name":" Infos über Handball ", "dataPath":"./json/anzeigehandball.json", "id":"vierte","idpath":"3"}
+  ]
+}

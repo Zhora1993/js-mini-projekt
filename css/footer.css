@@ -1,0 +1,26 @@
+.boden{
+  width: 100%;
+
+  border: 3px solid white;
+  box-shadow: 5px 5px 10px greenyellow;
+  background-color:  rgba(60, 226, 9, 0.726);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.footerul{
+  font-size: 2rem;
+  color: green;
+  list-style: none;
+ 
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+}

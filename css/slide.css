@@ -1,0 +1,116 @@
+.slide{
+  min-width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  box-shadow: 3px 3px 5px green;
+  height: 400px; 
+  background-color:rgba(60, 226, 9, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 10px;
+  
+  }
+  
+  
+.slidefeld{
+  background-color: rgb(174, 233, 156);
+  width: 90vw;
+  height: 200px;
+  border: 2px solid white; 
+  box-shadow: 3px 3px 5px green;
+  position: relative;
+  
+  } 
+
+  
+.slidebild{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+.eins, .zwei, .drei, .vier{
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid white;
+    border-radius: 180px;
+    position: absolute;
+    left: 35%;
+    top: 215px;
+    background-color: white;
+  }
+.zwei{
+    left: 43%;
+    top: 215px;
+  }
+.drei{
+    left: 51%;
+    top: 215px; 
+  }
+.vier{
+    left: 59%;
+    top: 215px;
+  }
+.ueberschrift{
+    position: absolute;
+    left: 40%;
+    top:-60px;
+    font-size: 20px;
+    color: white;
+  }
+.counter{
+   position: absolute;
+   top: -60px;
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+  }
+.vor{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    right: 5px;
+    bottom: 70px;
+    opacity: 0.4;
+    border-radius: 0;
+   
+  }
+.zuruck{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    left: 5px;
+    bottom: 70px;
+    opacity: 0.4;
+    border-radius: 0;
+  }
+  
+.vor.unsicht{
+    opacity: 0.1;
+   }
+.zuruck.unsicht{
+    opacity: 0.1;
+   }
+.eins.bund, .zwei.bund, .drei.bund, .vier.bund{
+    background-color: rgb(43, 136, 63);
+   }
+@media(min-width:600px){
+    
+  .slide{
+      height: 700px;
+    }
+  .slidefeld{
+      height: 600px;
+    }
+  .eins, .zwei, .drei, .vier{
+      width: 30px;
+      height: 30px;
+      top: 610px;
+    }
+  .vor{
+      top: 220px;
+    }
+  .zuruck{
+      top: 220px;
+    }
+  } 

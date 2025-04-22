@@ -1,0 +1,158 @@
+body{
+   margin: 0;
+   padding: 0;
+   width: 100%; 
+   max-width: 1200px;
+   min-width: 350px;
+   background-color: rgba(172, 255, 47, 0.192);
+} 
+
+.headline{
+
+  height: 70px;
+  border-bottom: 6px solid white;
+  background-color: rgba(159, 241, 17, 0.315);
+  padding-top: 20px;
+  box-shadow: 2px 2px 5px rgb(10, 226, 10);
+  position: relative;
+ 
+
+} 
+#burger{
+  z-index: 999;
+  width: 54px;
+  height: 54px;
+  border: 2px solid white;
+  background-color: rgb(14, 182, 36);
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px; 
+  
+}
+
+ #burger span{
+   width: 36px;
+   height: 6px;
+   border: 1px solid rgb(12, 90, 54);
+   background-color: white;
+   position: absolute;
+   left: 6px;
+   border-radius: 5px;
+ 
+ } 
+ .line1{
+   margin-top: 12px;
+   transition: all 0.1s;
+   
+ }
+ 
+ .line2{
+   margin-top: 24px;
+   transition: all 0.1s;
+ }
+ .line3{
+   margin-top: 36px;
+   transition: all 0.1s;
+ }
+ .line1.oben{
+  transform: translateY(12px) rotate(-45deg);
+ }
+ .line2.mittel{
+  opacity: 0;
+ }
+ .line3.unten{
+  transform: translateY(-12px) rotate(45deg);
+ }
+ .sportarten.sichtbar{
+  display: block;
+}
+ .sportarten{
+  
+   list-style: none;
+   margin-top: 50px; 
+   position: absolute;
+   right: 10px; 
+   display: none;
+   z-index: 999;
+ } 
+ .fussball, .turnen, .tennis, .handball{
+  color: white; 
+  border: 2px solid white;
+  width: 100px;
+  padding: 7px; 
+  background-color: rgb(16, 189, 59);
+  box-shadow: 2px 2px 5px green;
+}
+.fusdiv, .tendiv, .turdiv, .handdiv{
+  display: none;
+  z-index: 999;
+}
+.fusdiv.sichtbar{
+  display: block;
+}
+
+.turdiv.sichtbar{
+  display: block;
+}
+
+.tendiv.sichtbar{
+  display: block;
+}
+
+.handdiv.sichtbar{
+  display: block;
+}
+
+@media(min-width:600px){ 
+  .headline{
+    position: static;
+  }
+#demo{
+    display: none;
+}
+.sportarten{
+    margin-top: -10px;
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    
+  } 
+
+  #burger{
+    display: none;
+  }
+  
+  .fusdiv, .turdiv, .tendiv, .handdiv{
+    position: absolute;
+    top:60px;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(159, 241, 17, 0.315);
+    box-shadow: 2px 2px 5px green;
+    display: none;
+  }
+  .fusdiv li, .turdiv li, .tendiv li, .handdiv li{
+    list-style: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    color:green;
+  }
+
+  .fusdiv.sichtbar{
+    display: block;
+  }
+  .turdiv.sichtbar{
+    display: block;
+  }
+  .tendiv.sichtbar{
+    display: block;
+  }
+  .handdiv.sichtbar{
+    display: block;
+  } 
+  
+} 
